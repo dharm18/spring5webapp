@@ -62,7 +62,15 @@ public class Book {
         this.title = title;
     }
 
-    public String getIsbn() {
+    public Publisher getPublisher() {
+		return publisher;
+	}
+
+	public void setPublisher(Publisher publisher) {
+		this.publisher = publisher;
+	}
+
+	public String getIsbn() {
         return isbn;
     }
 
